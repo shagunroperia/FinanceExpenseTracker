@@ -1,0 +1,3 @@
+_id,userid,username,useremail,userpassword,userpreferences.theme,userpreferences.notifications,userpreferences.monthlyLimit,userpreferences.yearlyLimit
+674e24023cd987e85b91bca5,12022024,Shagun Roperia,shagun.roperia@sjsu.edu,JDJiJDEyJDh4Y3JmNUM4c21TUVJJR2RFYi5aS09XZUNtZzlEdkxmb1J0RGwyWnN2Sk9DRGRqeUMwN1VL,light,true,1000,12000
+674e24023cd987e85b91bca6,12032024,Varun Patil,varun.patil@sjsu.edu,JDJiJDEyJFVSaFlOTzhYaDJvRi91MUtDWlBCL3VpY254amdYcjhmakdycmsvOXQ1SE9iZnRtQzZLd1Fl,dark,false,1500,18000
