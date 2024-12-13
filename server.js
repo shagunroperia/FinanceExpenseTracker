@@ -8,6 +8,7 @@ const transactionRoutes = require('./routes/transactionRoutes');
 const reportRoutes = require('./routes/reportRoutes');
 const settingsRoutes = require('./routes/settingsRoutes');
 const errorHandler = require('./utils/errorHandler');
+const arimaRoutes = require('./routes/arimaRoutes');
 
 dotenv.config();
 const app = express();
@@ -23,6 +24,7 @@ app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/transactions', transactionRoutes);
 app.use('/api/v1/reports', reportRoutes);
 // app.use('/api/v1/settings', settingsRoutes);
+app.use('/api/arima', arimaRoutes);
 
 // Error handling middleware
 app.use(errorHandler);
