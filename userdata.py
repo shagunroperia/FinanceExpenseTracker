@@ -3,7 +3,7 @@ import bcrypt
 from random import choice
 
 # Connect to MongoDB
-client = pymongo.MongoClient("mongodb+srv://shagunroperia:2owYGSLABmSO3oAb@mongodemocluster.gztl3.mongodb.net/TransactionsDb?retryWrites=true&w=majority")  # Update with your MongoDB URI if needed
+client = pymongo.MongoClient("mongodb+srv://shagunroperia:2owY3oAb@mongodemocluster.gztl3.mongodb.net/TransactionsDb?retryWrites=true&w=majority")  # Update with your MongoDB URI if needed
 db = client['TransactionsDb']  # Use your database name
 transactions_collection = db['transaction']
 users_collection = db['users']
